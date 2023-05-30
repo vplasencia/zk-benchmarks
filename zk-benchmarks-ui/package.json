@@ -1,0 +1,25 @@
+{
+  "name": "zk-benchmarks-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ethersproject/bignumber": "5.5.0",
+    "@ethersproject/bytes": "5.7.0",
+    "@ethersproject/keccak256": "5.7.0",
+    "@semaphore-protocol/group": "^3.10.1",
+    "@semaphore-protocol/identity": "^3.10.1",
+    "autoprefixer": "10.4.14",
+    "next": "13.4.4",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "snarkjs": "^0.7.0",
+    "tailwindcss": "3.3.2"
+  }
+}
