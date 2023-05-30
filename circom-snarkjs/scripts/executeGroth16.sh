@@ -9,7 +9,7 @@ if [ "$1" ]; then
 fi
 
 # Variable to store the number of the ptau file
-PTAU=14
+PTAU=13
 
 # In case there is a ptau file number as an input
 if [ "$2" ]; then
