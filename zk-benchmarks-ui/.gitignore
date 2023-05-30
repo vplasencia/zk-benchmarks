@@ -34,6 +34,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-*.zkey
-*.wasm
-verification_key.json*
+/public/zkproof/circom-snarkjs/*/plonk/**/*
+/public/zkproof/circom-snarkjs/*/fflonk/**/*
