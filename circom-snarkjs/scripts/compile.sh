@@ -3,13 +3,14 @@
 # Variable to store the name of the circuit
 CIRCUIT=sudoku
 
-# Path to the directory where the circuit is located
-PATH_CIRCUIT=./circuits/${CIRCUIT}
 
 # In case there is a circuit name as input
 if [ "$1" ]; then
     CIRCUIT=$1
 fi
+
+# Path to the directory where the circuit is located
+PATH_CIRCUIT=./circuits/${CIRCUIT}
 
 # In case there is a path as input
 if [ "$2" ]; then
