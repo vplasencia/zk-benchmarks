@@ -2,3 +2,5 @@
 node_modules
 build
 ptau
+
+.DS_Store

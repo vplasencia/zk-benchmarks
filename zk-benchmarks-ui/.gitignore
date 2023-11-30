@@ -36,3 +36,5 @@ next-env.d.ts
 
 /public/zkproof/circom-snarkjs/*/plonk/**/*
 /public/zkproof/circom-snarkjs/*/fflonk/**/*
+
+.DS_Store
