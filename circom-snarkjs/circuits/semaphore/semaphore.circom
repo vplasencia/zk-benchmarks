@@ -87,4 +87,4 @@ template Semaphore(nLevels) {
     nullifierHash <== calculateNullifierHash.out;
 }
 
-component main {public [signalHash, externalNullifier]} = Semaphore(20);
+component main {public [signalHash, externalNullifier]} = Semaphore(16);
